@@ -83,7 +83,7 @@ async def op(bot, m :Message):
         key = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💌 Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 💌", url=f"https://t.me/+sT56Fh1VXZ81ZWRl")],[
+                    InlineKeyboardButton("💌 Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 💌", url=f"https://t.me/+O7J_SlGPgp1iYmE1")],[
                     InlineKeyboardButton("👍 Tʀʏ Aɢᴀɪɴ 👍", "Back")
                 ]
             ]
