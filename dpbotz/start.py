@@ -26,7 +26,7 @@ async def approve(bot, m : Message):
         await bot.approve_chat_join_request(op.id, kk.id)
         await bot.send_message(m.from_user.t, "**𝖧𝖾𝗅𝗅𝗈 {} 👻\nWelcome To {} 𝖸𝗈𝗎𝗋 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖠𝗉𝗉𝗋𝗈𝗏𝖾𝖽.\n\nSend /start to know more**".format(m.from_user.mention, m.chat.title))
         reply_markup=InlineKeyboardMarkup([[
-        InlineKeyboardButton("💥 NEW MOVIES 💥", url=f"https://t.me/+sT56Fh1VXZ81ZWRl")
+        InlineKeyboardButton("💥 NEW MOVIES 💥", url=f"https://t.me/+K4sUvdM_4eo3Zjg1")
         ]])
                 
         await add_user(m.from_user.id)
@@ -51,8 +51,8 @@ async def op(bot, m :Message):
                 InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ࿇", url=f"https://t.me/{dp1.BOT_USERNAME}?startchannel=Bots4Sale&admin=invite_users+manage_chat")],[
                 InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ࿇", url=f"https://t.me/{dp1.BOT_USERNAME}?startgroup=Bots4Sale&admin=invite_users+manage_chat")
                  ],[
-                InlineKeyboardButton("💥 Uᴘᴅᴀᴛᴇs 💥", url="https://t.me/+sT56Fh1VXZ81ZWRl"),
-                InlineKeyboardButton("💙 Sᴜᴘᴘᴏʀᴛ 💙", url="https://t.me/+sT56Fh1VXZ81ZWRl")
+                InlineKeyboardButton("💥 Uᴘᴅᴀᴛᴇs 💥", url="https://t.me/+TniMNKUqaQBlNWM1"),
+                InlineKeyboardButton("💙 Sᴜᴘᴘᴏʀᴛ 💙", url="https://t.me/+nNYtDOOW1kwxYjg1")
                 
             ]])             
     
@@ -61,7 +61,7 @@ async def op(bot, m :Message):
             dp1.LOG_CHANNEL,
             f"**--Nᴇᴡ Uꜱᴇʀ Sᴛᴀʀᴛᴇᴅ Tʜᴇ Bᴏᴛ--**\n\nUꜱᴇʀ: {m.from_user.mention}\nIᴅ: `{m.from_user.id}`\nUɴ: @{m.from_user.username}"
             )
-            await m.reply_video(video=dp1.DP_PIC, caption="**🦊 Hᴇʟʟᴏ {}!\n\nI'ᴍ Aɴ Aᴜᴛᴏ Aᴘᴘʀᴏᴠᴇ Bᴏᴛ.\nI Cᴀɴ Aᴘᴘʀᴏᴠᴇ Usᴇʀs Iɴ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs.Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Aɴᴅ Gʀᴏᴜᴘ ᴀɴᴅ Pʀᴏᴍᴏᴛᴇ Mᴇ Tᴏ Aᴅᴍɪɴ Wɪᴛʜ Aᴅᴅ Mᴇᴍʙᴇʀs Pᴇʀᴍɪssɪᴏɴ.\n\n__Pᴏᴡᴇʀᴅ Bʏ : @CinemaKalavaraTG__**".format(m.from_user.mention, "https://t.me/Movies_Days"), reply_markup=keyboard)
+            await m.reply_video(video=dp1.DP_PIC, caption="**🦊 Hᴇʟʟᴏ {}!\n\nI'ᴍ Aɴ Aᴜᴛᴏ Aᴘᴘʀᴏᴠᴇ Bᴏᴛ.\nI Cᴀɴ Aᴘᴘʀᴏᴠᴇ Usᴇʀs Iɴ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs.Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Aɴᴅ Gʀᴏᴜᴘ ᴀɴᴅ Pʀᴏᴍᴏᴛᴇ Mᴇ Tᴏ Aᴅᴍɪɴ Wɪᴛʜ Aᴅᴅ Mᴇᴍʙᴇʀs Pᴇʀᴍɪssɪᴏɴ.\n\n__Pᴏᴡᴇʀᴅ Bʏ : @MazhavilMovieTG__**".format(m.from_user.mention, "https://t.me/MazhavilMovieUpdates"), reply_markup=keyboard)
             
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
