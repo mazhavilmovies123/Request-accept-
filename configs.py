@@ -5,7 +5,7 @@ import os, time
 class Config:
     API_ID = int(getenv("API_ID", "21419016"))
     API_HASH = getenv("API_HASH", "79198e1eb4cfd0f771a89d83b9144e7e")
-    BOT_TOKEN = getenv("BOT_TOKEN", "8195734162:AAEDqrvuIgVqnPqEJ4yiDcwtMUW9K8lM3mQ")
+    BOT_TOKEN = getenv("BOT_TOKEN", "8320877229:AAH_I5dbw-YFsn6niXpOV7TeNGt7OTdwagY")
     UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "MazhavilMoviesUpdates")
     UPDATECHANNEL_ID = int(getenv("UPDATECHANNEL_ID", "-1002674451609"))
     ADMIN = list(map(int, getenv("ADMIN", "1933114137").split()))
@@ -18,7 +18,7 @@ class Config:
     PORT = os.environ.get("PORT", "8080")
     
     DP_PIC = os.environ.get("DP_PIC", "https://envs.sh/_qj.mp4")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME","Mazhavilapproverbot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME","Mazhavil_approver_bot")
  # Subsprice Gif & Auto Request Accept
     SURPRICE = os.environ.get("SURPRICE", "https://envs.sh/_qj.mp4").split()
 
